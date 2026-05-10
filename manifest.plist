@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>items</key>
-  <array>
-    <dict>
-
-      <key>assets</key>
-      <array>
+    <key>items</key>
+    <array>
         <dict>
-          <key>kind</key>
-          <string>software-package</string>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://github.com/iosvipemode/pubg/releases/download/App/App.ipa</string>
+                </dict>
+            </array>
 
-          <key>url</key>
-          <string>https://pub-db63ef1fc1644955b6b9bbbbf24b049e.r2.dev/app.ipa</string>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.levi87.mycpufrq</string>
+
+                <key>bundle-version</key>
+                <string>1.0</string>
+
+                <key>kind</key>
+                <string>software</string>
+
+                <key>title</key>
+                <string>App</string>
+            </dict>
         </dict>
-      </array>
-
-      <key>metadata</key>
-      <dict>
-        <key>bundle-identifier</key>
-        <string>com.opa334.dopamine-roothide</string>
-
-        <key>bundle-version</key>
-        <string>1.0</string>
-
-        <key>kind</key>
-        <string>software</string>
-
-        <key>title</key>
-        <string>Dopamine</string>
-      </dict>
-
-    </dict>
-  </array>
+    </array>
 </dict>
 </plist>
