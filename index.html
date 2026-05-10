@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Install App</title>
+
+    <style>
+        body{
+            background:#111;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            margin:0;
+            font-family:sans-serif;
+        }
+
+        button{
+            padding:18px 40px;
+            font-size:22px;
+            border:none;
+            border-radius:14px;
+            background:#0A84FF;
+            color:white;
+            cursor:pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<button onclick="installApp()">
+    Install App
+</button>
+
+<script>
+function installApp() {
+    window.location.href =
+    "itms-services://?action=download-manifest&url=https://iosvipemode.github.io/pubg/manifest.plist";
+}
+</script>
+
+</body>
+</html>
